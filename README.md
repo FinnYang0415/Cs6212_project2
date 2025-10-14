@@ -21,7 +21,7 @@ To compare with theory, it plots the measured times next to a scaled scale⋅nlo
 ### Figure 1. Experimental runtime compared with scaled nlogn
 ![img_1.png](img_1.png)
 ### Files
-    src/ClosestPairMini.java     // main program (D&C + simple experiment driver)
+    src/ClosestpairPoints.java     // main program (D&C + simple experiment driver)
     results/closest_pair_results.csv  // sample output (optional)
     pom.xml                      // (optional) if you prefer Maven packaging
     README.md
