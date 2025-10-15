@@ -5,7 +5,8 @@ This program measures the runtime of the divide & conquer closest-pair algorithm
 javac -d target src/ClosestpairPoints.java
 #### run
 java -Xms1g -Xmx1g -cp target/<your-jar>.jar ClosestpairPoints 1000 128000 7 results/closest_pair_results.csv
-
+#### run test code
+mvn -q test (or run within idle)
 ### You’ll get output
 ![img.png](img.png)
 ### What it does
@@ -25,4 +26,4 @@ To compare with theory, it plots the measured times next to a scaled scale⋅nlo
     results/closest_pair_results.csv  // sample output (optional)
     pom.xml                      // (optional) if you prefer Maven packaging
     README.md
-
+    ClosestpairPointsTest.java // test code
